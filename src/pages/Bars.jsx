@@ -10,13 +10,6 @@ function Bars() {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
       </section>
     </main>
   );

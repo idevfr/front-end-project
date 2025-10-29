@@ -8,15 +8,6 @@ function SocialComunity() {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
       </section>
     </main>
   );

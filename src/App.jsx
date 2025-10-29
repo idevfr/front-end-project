@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router";
 import AppLayout from "./ui/AppLayout";
 import Essentials from "./pages/Essentials";
 import Resources from "./pages/Resources";
@@ -12,6 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppLayout />}>
+          <Route index element={<Navigate to={"essentials"} />} />
           <Route path="essentials" element={<Essentials />} />
           <Route path="resources" element={<Resources />} />
           <Route path="viewpoints" element={<Viewpoints />} />

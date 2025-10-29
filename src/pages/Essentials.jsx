@@ -8,15 +8,6 @@ function Essentials() {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
       </section>
     </main>
   );

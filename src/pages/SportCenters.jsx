@@ -14,9 +14,6 @@ function SportCenters() {
         <Cards />
         <Cards />
         <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
       </section>
     </main>
   );
